@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap");
+
+:root {
+  --xs: 4px;
+  --s: 8px;
+  --m: 12px;
+  --l: 24px;
+
+  --canglv: #4e5f45;
+  --white: #fff;
+  --ganshifen: #eadcd6;
+  --dengcaohui: #363532;
+}
+
+body {
+  margin: 0;
+  font-weight: 600;
+}
+.navTitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: var(--white);
+  margin: 0;
+}
+
+.navContainer {
+  margin: 0;
+  background-color: var(--canglv);
+  padding: var(--xs) var(--s);
+}
+
+.mainPage {
+  background-color: var(--ganshifen);
+  padding: var(--s);
+  font-family: "Noto Serif SC", serif;
+  color: var(--dengcaohui);
+}
+
+.h1Margin0 {
+  margin: 0;
+}
+
+.aColor {
+  text-decoration-line: none;
+  color: var(--dengcaohui);
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140, 140, 140);
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: var(--s);
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid rgb(160, 160, 160);
+}
